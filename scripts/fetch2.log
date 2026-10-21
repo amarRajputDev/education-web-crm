@@ -1,0 +1,40 @@
+skip hero-campus
+skip hero-library
+skip about-campus
+skip director
+skip classroom
+skip laboratory
+ok computer-lab 34 KB
+skip library
+ok sports 5 KB
+ok graduation 107 KB
+retry-fail seminar academic seminar conference speaker audience no image for academic seminar conference speaker audience
+ok seminar 329 KB
+retry-fail workshop students workshop collaborative teamwork no image for students workshop collaborative teamwork
+ok workshop 1140 KB
+ok campus-event 184 KB
+skip campus-life
+ok campus-hostel 3344 KB
+ok campus-canteen 492 KB
+ok campus-auditorium 750 KB
+ok course-cs 437 KB
+ok course-business 3092 KB
+ok course-engineering 197 KB
+ok course-health 40 KB
+ok course-design 139 KB
+ok course-commerce 751 KB
+ok course-hotel 528 KB
+ok course-science 635 KB
+ok news-1 518 KB
+ok news-2 2018 KB
+ok news-3 220 KB
+ok faculty-work 329 KB
+ok placement 629 KB
+ok research 458 KB
+retry-fail mentorship teacher student mentor discussion no image for teacher student mentor discussion
+ok mentorship 460 KB
+ok gallery-1 739 KB
+ok gallery-2 180 KB
+ok gallery-3 1234 KB
+ok gallery-4 676 KB
+done. failures: 0

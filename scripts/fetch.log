@@ -1,0 +1,53 @@
+ok hero-campus 965 KB
+ok hero-library 55 KB
+ok about-campus 47 KB
+ok classroom 945 KB
+ok laboratory 1153 KB
+ok computer-lab 34 KB
+ok library 583 KB
+ok sports 5 KB
+FAIL graduation download 429 https://upload.wikimedia.org/wikipedia/commons/1/12/University_graduation_-_geograph.org.uk_-_886718.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+FAIL seminar no image for academic seminar conference speaker audience
+FAIL workshop no image for students workshop collaborative teamwork
+FAIL campus-event download 429 https://upload.wikimedia.org/wikipedia/commons/5/5d/Vaso_Ristov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+ok campus-life 1253 KB
+FAIL campus-hostel download 429 https://upload.wikimedia.org/wikipedia/commons/6/68/Academic_City_University_student_residence_hall_building_exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+FAIL campus-canteen search 429
+FAIL campus-auditorium search 429
+FAIL course-cs search 429
+FAIL course-business search 429
+FAIL course-engineering search 429
+FAIL course-health search 429
+FAIL course-design search 429
+FAIL course-commerce search 429
+FAIL course-hotel search 429
+FAIL course-science search 429
+FAIL news-1 search 429
+FAIL news-2 search 429
+FAIL news-3 search 429
+FAIL faculty-work search 429
+FAIL placement search 429
+FAIL research search 429
+FAIL mentorship search 429
+FAIL gallery-1 search 429
+FAIL gallery-2 search 429
+FAIL gallery-3 search 429
+FAIL gallery-4 search 429
+ok p-01 41 KB
+ok p-02 53 KB
+ok p-03 34 KB
+ok p-04 40 KB
+ok p-05 55 KB
+ok p-06 46 KB
+ok p-07 40 KB
+ok p-08 52 KB
+ok p-09 45 KB
+ok p-10 35 KB
+ok p-11 47 KB
+ok p-12 41 KB
+ok p-13 25 KB
+ok p-14 59 KB
+ok p-15 28 KB
+ok p-16 38 KB
+ok director 65 KB
+done. failures: 26

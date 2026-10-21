@@ -1,0 +1,37 @@
+AAROHAN INSTITUTE OF HIGHER EDUCATION
+Prospectus 2027–28 (Demo Document)
+===================================
+
+This is placeholder text used by the Agentiva demo build. Replace it with the
+institute's real, approved prospectus before going live.
+
+ABOUT
+-----
+Aarohan Institute of Higher Education is a modern private institute offering
+undergraduate, postgraduate, diploma and professional programmes across six
+academic schools.
+
+PROGRAMMES (SAMPLE)
+-------------------
+* B.Tech Computer Science & Engineering   4 Years   Full-time
+* Bachelor of Computer Applications       3 Years   Full-time
+* BBA — Bachelor of Business Admin.      3 Years   Full-time
+* B.Com (Honours)                        3 Years   Full-time
+* MBA                                     2 Years   Full-time
+* M.Sc Data Science                      2 Years   Full-time
+* Diploma in Medical Laboratory Tech.    2 Years   Full-time
+* B.Des Interaction Design               4 Years   Full-time
+
+ADMISSION PROCESS
+-----------------
+1. Explore programmes and check eligibility.
+2. Submit an enquiry or an online application.
+3. Upload the required documents for verification.
+4. Track your application using the reference number.
+
+CONTACT
+-------
+Admission helpline: +91 98200 41127
+Email: admissions@aarohan-institute.edu
+
+All content in this demo is fictional sample data.

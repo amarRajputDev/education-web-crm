@@ -292,7 +292,6 @@ function SortHeader({
   label,
   field,
   sort,
-  dir,
   onSort,
   className,
 }: {

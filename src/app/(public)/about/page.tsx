@@ -13,14 +13,12 @@ import {
   Target,
   Users,
 } from "lucide-react";
-import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { PageHeader, SectionHeading } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/ui/feedback";
 import { getBlock, getDepartments, getDownloads, paragraphs, getPublishedFaculty } from "@/lib/content";
-import { getSetting } from "@/lib/settings";
 import { formatDate } from "@/lib/format";
 
 export const dynamic = "force-dynamic";

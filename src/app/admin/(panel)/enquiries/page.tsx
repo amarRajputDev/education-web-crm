@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarClock, KanbanSquare, LayoutList, Megaphone, Plus, Users } from "lucide-react";
+import { CalendarClock, KanbanSquare, LayoutList, Megaphone, Plus } from "lucide-react";
 import { requireAuth } from "@/lib/auth";
 import { PERMISSIONS, can } from "@/lib/rbac";
 import { getDb } from "@/lib/db";

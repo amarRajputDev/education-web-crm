@@ -4,7 +4,6 @@ import { revalidatePath } from "next/cache";
 import { assertPermission } from "@/lib/auth";
 import { PERMISSIONS } from "@/lib/rbac";
 import { getDb } from "@/lib/db";
-import { logAudit } from "@/lib/audit";
 
 export async function markReadAction(id: number): Promise<{ ok: boolean }> {
   const context = await assertPermission(PERMISSIONS.NOTIFICATION_VIEW);

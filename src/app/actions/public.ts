@@ -8,7 +8,7 @@ import { notify } from "@/lib/notify";
 import { sendEmail } from "@/lib/email";
 import { getSetting } from "@/lib/settings";
 import { fieldErrors, contactSchema, enquirySchema, applicationPersonalSchema, applicationAcademicSchema, applicationProgramSchema, applicationAddressSchema, applicationReviewSchema } from "@/lib/validation";
-import { normalizeEmail, normalizePhone, slugify } from "@/lib/format";
+import { normalizeEmail, normalizePhone } from "@/lib/format";
 
 export type ActionState = {
   ok: boolean;

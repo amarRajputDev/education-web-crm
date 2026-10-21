@@ -10,7 +10,7 @@ import {
   updateApplicationStatus,
   type ApplicationActionResult,
 } from "@/app/admin/actions/applications";
-import { ErrorSummary, FieldShell, Select, TextArea, TextInput } from "@/components/ui/fields";
+import { ErrorSummary, FieldShell, Select, TextArea } from "@/components/ui/fields";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/components/ui/toast";
 
@@ -22,9 +22,7 @@ const EMPTY: ApplicationActionResult = { ok: false, message: "" };
 export function DecisionPanel({
   applicationId,
   status,
-  reviewerId,
   statuses,
-  reviewers,
   reasonRequired,
   canManage,
 }: {

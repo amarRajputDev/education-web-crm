@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState, useEffect, useMemo, useState } from "react";
+import { useActionState, useMemo, useState } from "react";
 import { Loader2, Save } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { saveSettings, type ContentActionState } from "@/app/admin/actions/site-content";

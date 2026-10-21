@@ -107,6 +107,6 @@ export const QUICK_CREATE = [
   { label: "Publish notice", href: "/admin/news/new", permission: PERMISSIONS.CONTENT_MANAGE, icon: FileText },
   { label: "Add event", href: "/admin/events/new", permission: PERMISSIONS.CONTENT_MANAGE, icon: Building2 },
   { label: "Review applications", href: "/admin/admissions?status=submitted", permission: PERMISSIONS.APPLICATION_VIEW, icon: ClipboardList },
-].filter((item) => true);
+];
 
 export { can };

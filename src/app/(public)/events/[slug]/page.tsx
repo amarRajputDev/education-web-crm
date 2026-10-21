@@ -127,7 +127,6 @@ export default async function EventDetailPage({
 
   const related = getRelated(event);
   const bodyParagraphs = paragraphs(event.body);
-  const start = parseDate(event.starts_at);
   const organiser = ORGANISERS[event.category] ?? "Student Affairs Office";
   const isPast = isBeforeNow(event.starts_at);
 

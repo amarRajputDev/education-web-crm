@@ -1,16 +1,14 @@
 import Link from "next/link";
-import { ClipboardList, Download, Inbox, Search, UserCheck } from "lucide-react";
+import { ClipboardList, Download, Inbox, UserCheck } from "lucide-react";
 import { requireAuth } from "@/lib/auth";
 import { PERMISSIONS, can } from "@/lib/rbac";
 import { getDb } from "@/lib/db";
 import { AdminPageHeader } from "@/components/admin/page-header";
 import { AdminPager } from "@/components/admin/pager";
-import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/ui/feedback";
 import { AdmissionsFilters } from "@/components/admin/admissions/filters";
 import { ApplicationSelection } from "@/components/admin/admissions/selection";
-import { formatDateTime, relativeTime, statusTone } from "@/lib/format";
-import { cn } from "@/lib/cn";
+import { relativeTime } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
 

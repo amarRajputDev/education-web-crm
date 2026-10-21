@@ -7,8 +7,6 @@ import { cn } from "@/lib/cn";
 
 export type FilterOption = { value: string; label: string };
 
-const KEYS = ["q", "status", "course", "counsellor", "source", "priority", "from", "to", "view", "page"] as const;
-
 export function EnquiryFilters({
   courses,
   counsellors,

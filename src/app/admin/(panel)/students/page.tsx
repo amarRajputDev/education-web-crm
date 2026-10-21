@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Download, GraduationCap, Mail, Phone, UserCheck } from "lucide-react";
+import { Download, GraduationCap, Mail, Phone } from "lucide-react";
 import { requireAuth } from "@/lib/auth";
 import { PERMISSIONS, can } from "@/lib/rbac";
 import { getDb } from "@/lib/db";

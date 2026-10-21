@@ -44,6 +44,7 @@ export function ImageField({
           </div>
           <div className="flex h-12 w-28 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line bg-offwhite">
             {preview ? (
+              // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={preview}
                 alt="Preview of the selected image"

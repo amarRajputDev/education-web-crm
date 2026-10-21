@@ -309,7 +309,7 @@ export async function createFollowUp(_prev: EnquiryActionResult, formData: FormD
 
   const dueAt = new Date(parsed.data.dueAt).toISOString();
   const db = getDb();
-  const info = db
+  db
     .prepare(
       `INSERT INTO follow_up_tasks (enquiry_id, counsellor_id, due_at, note, status, created_by, created_at, updated_at)
        VALUES (?, ?, ?, ?, 'pending', ?, datetime('now'), datetime('now'))`,

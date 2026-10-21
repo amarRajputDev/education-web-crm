@@ -58,7 +58,6 @@ export default function AdmissionsPage() {
   const faqs = getFaqs("Admissions");
   const downloads = getDownloads();
   const allCourses = courses.map((course) => ({ id: course.id, name: course.name }));
-  const openSessions = sessions.filter((session) => session.status !== "closed");
 
   return (
     <>

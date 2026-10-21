@@ -1,13 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { ChevronRight, Home } from "lucide-react";
 
 export type Crumb = { label: string; href?: string };
 
 export function Breadcrumbs({ items, className = "" }: { items: Crumb[]; className?: string }) {
-  const pathname = usePathname();
   const all = [{ label: "Home", href: "/" }, ...items];
   return (
     <nav aria-label="Breadcrumb" className={className}>

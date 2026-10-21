@@ -30,7 +30,6 @@ export function KanbanBoard({
   const router = useRouter();
   const toast = useToast();
   const [dragOver, setDragOver] = useState<string | null>(null);
-  const [scrollTarget, setScrollTarget] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
 
   const move = (id: number, status: string) => {

@@ -71,10 +71,6 @@ export default async function EnquiryDetailPage({ params }: { params: Promise<{ 
   const counsellors = db
     .prepare(`SELECT id, name FROM users WHERE status = 'active' AND role_key IN ('counsellor','admission_manager') ORDER BY name`)
     .all() as { id: number; name: string }[];
-  const courses = db.prepare(`SELECT id, name FROM courses WHERE status = 'published' ORDER BY name`).all() as {
-    id: number;
-    name: string;
-  }[];
 
   const notes = db
     .prepare(

@@ -60,6 +60,7 @@ export function Button({
     );
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { loading: _ignored, ...buttonProps } = rest as ButtonAsButton;
   return (
     <button {...buttonProps} className={classes} disabled={loading || buttonProps.disabled}>

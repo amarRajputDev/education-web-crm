@@ -3,7 +3,7 @@ import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
 import { getAuthContext } from "@/lib/auth";
 import { PERMISSIONS, can } from "@/lib/rbac";
-import { getDb } from "@/lib/db";
+import { getDb, UPLOADS_DIR } from "@/lib/db";
 import { logAudit } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
@@ -57,7 +57,7 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
 
-  const baseDir = path.join(process.cwd(), "data", "uploads");
+  const baseDir = UPLOADS_DIR;
   const filePath = path.resolve(baseDir, row.stored_name);
   if (!filePath.startsWith(baseDir + path.sep)) {
     return NextResponse.json({ error: "Invalid path" }, { status: 400 });

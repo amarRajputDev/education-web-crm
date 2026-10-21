@@ -310,8 +310,7 @@ export async function submitApplication(_previous: ActionState, formData: FormDa
   const fs = await import("node:fs");
   const path = await import("node:path");
   const crypto = await import("node:crypto");
-  const { UPLOADS_DIR: _unusedUploadsDir } = await import("@/lib/db");
-  void _unusedUploadsDir;
+  const { UPLOADS_DIR } = await import("@/lib/db");
 
   for (const key of Object.keys(ALLOWED_DOCS)) {
     const file = formData.get(`doc_${key}`);
@@ -327,7 +326,7 @@ export async function submitApplication(_previous: ActionState, formData: FormDa
     }
     const storedName = `${crypto.randomBytes(16).toString("hex")}.${file.name.split(".").pop()?.toLowerCase() || "bin"}`;
     const buffer = Buffer.from(await file.arrayBuffer());
-    const targetDir = path.join(process.cwd(), "data", "uploads");
+    const targetDir = UPLOADS_DIR;
     fs.mkdirSync(targetDir, { recursive: true });
     fs.writeFileSync(path.join(targetDir, storedName), buffer);
     documents.push({

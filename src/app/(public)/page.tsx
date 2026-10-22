@@ -572,12 +572,12 @@ export default function HomePage() {
           title="What students & parents tell us"
           description="Sample testimonials shown for demonstration — to be replaced with verified, authorised feedback."
         />
-        <div className="grid gap-6 md:grid-cols-3 md:[&>*:nth-child(2)]:md:mt-10">
+        <div className="grid gap-6 [&>*]:min-w-0 md:grid-cols-3 md:[&>*:nth-child(2)]:md:mt-10">
           {testimonials.slice(0, 3).map((item) => (
             <Reveal key={item.id}>
-              <figure className="card relative flex h-full flex-col p-7">
+              <figure className="card relative flex h-full flex-col overflow-hidden p-5 sm:p-7">
                 <Quote className="h-9 w-9 -scale-x-100 text-gold" aria-hidden />
-                <blockquote className="mt-4 flex-1 font-display text-[17px] leading-[1.6] text-navy">
+                <blockquote className="mt-4 flex-1 break-words font-display text-[17px] leading-[1.6] text-navy">
                   “{item.quote}”
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-3 border-t border-line pt-5">
